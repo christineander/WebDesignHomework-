@@ -10,4 +10,4 @@ I'm a paragraph. I don't really know what to say. This is new to me.
 2. Apple
 3. Pineapple
 
-{Otters} (https://en.wikipedia.org/wiki/Otter) 
+{Otters (https://en.wikipedia.org/wiki/Otter) 
