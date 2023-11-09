@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'RobotMono';
+    src: url('./fonts/RobotoMono-Bold.ttf') format('truetype');
+    font-style: 'bold';
+}
+
+@font-face{
+    font-family: 'RobotMono';
+    src: url('./fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-style: 'regular';
+}
