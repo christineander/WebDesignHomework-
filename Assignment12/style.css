@@ -14,7 +14,7 @@ body{
     margin: auto;
 }
 
-.secondarycontainer .move-this-p {
+.p.move-this-p.move-this-p {
     position: relative;
     top: 4em;
     left: 50px;
