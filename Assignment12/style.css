@@ -4,7 +4,7 @@ body{
 }
 
 .maincontainer {
-    /* Draw a solid border make it dark blue */
+    /* Draw a solid border make it salmon */
     border-style: dotted;
     border-width: 10px;
     border-color: lightsalmon;
@@ -12,6 +12,14 @@ body{
     background: beige;
     width: 75%;
     margin: auto;
+}
+
+.secondarycontainer .move-this-p {
+    position: relative;
+    top: 4em;
+    left: 50px;
+    color: black;
+    background-color:salmon;
 }
 
 div{
