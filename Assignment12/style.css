@@ -2,7 +2,56 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
+header{
+    position:fixed;
+    background-color: bisque;
+    border-width: 5px;
+    margin:auto;
+    height: 2.5em;
+    width: 100%;
 
+}
+
+.menu-item{
+    display: inline-block;
+    margin: 0%;
+    min-width: 6em;
+    min-height: auto;
+    padding: 2px;
+}
+
+.menu-item-dropdown{
+    display: inline-block;
+    margin: 0%;
+    min-width: 6em;
+    min-height: auto;
+    padding: 2px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin: 0;
+    margin-top: .5em;
+    min-width: 6em;
+   
+    z-index: 1;
+}
+
+
+
+.menu-item-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-item{
+    display: inline-block;
+    margin: 0%;
+    min-width: 6em;
+    min-height: auto;
+    padding: 2px;
+}
 .maincontainer {
     /* Draw a solid border make it salmon */
     border-style: dotted;
