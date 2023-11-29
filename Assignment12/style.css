@@ -1,6 +1,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+
 }
 header{
     position:fixed;
@@ -35,7 +36,6 @@ header{
     margin-top: .5em;
     min-width: 6em;
    
-    z-index: 1;
 }
 
 
@@ -63,17 +63,14 @@ header{
     margin: auto;
 }
 
-.secondarycontainer.move-this-p {
-    position: relative;
-    top: 4em;
-    left: 50px;
-    color: black;
-    background-color:salmon;
+
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: initial;
+    
 }
 
-div{
-    text-align: center;
-}
 
 .secondarycontainer{
     margin:auto;
@@ -86,3 +83,6 @@ div{
     border-spacing: inherit;
 }
 
+img{
+    text-align: center;
+}
