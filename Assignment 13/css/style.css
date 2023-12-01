@@ -6,9 +6,9 @@ body {
 header {
     position:fixed;
     background-color:white;
-    border-width: 5px;
+    border-width: .5px;
     margin:auto;
-    height: 2.5em;
+    height: 1em;
     width: 100%;
 
 }
