@@ -3,7 +3,7 @@ body {
 
 }
 
-header{
+header {
     position:fixed;
     background-color:white;
     border-width: 5px;
@@ -13,7 +13,7 @@ header{
 
 }
 
-.maincontainer {
+.main-container {
     /* Draw a solid border make it lightseagreen */
     border-style:groove;
     border-width: 10px;
@@ -56,7 +56,7 @@ header{
 }
 
 
-.dropdown-item{
+.dropdown-item {
     display: inline-block;
     margin: 0%;
     min-width: 6em;
