@@ -1,12 +1,8 @@
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-var cty = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke(200);
 
-//fill text
-ctx.font = '35pt Ariel';
-ctx.strokeText('Picture This', 100, 550);
+<canvas id="myCanvas" width="200" height="100"></canvas>
 
-//Author
-ctx.font = '20pt Ariel';
-ctx.fillStyle = 'black';
-ctx.fillText('Mac Miller', 200, 580);
